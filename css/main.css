@@ -3,7 +3,7 @@ html {
 }
 
 *,
-*::before *::after {
+*::before*::after {
   box-sizing: inherit;
 }
 
@@ -11,7 +11,6 @@ body {
   font-family: sans-serif;
   font-size: 1.125rem;
   line-height: 1.5;
-  background-color: #fff;
   margin: .5rem;
   padding: 1rem;
 }
@@ -20,14 +19,12 @@ header {
   background-color: #e2e2e2;
   display: flex;
   justify-content: space-between;
-}
-
-h1 {
-  font-size: 1.125rem;
+  align-items: center;
 }
 
 nav {
   color: #0074d9;
+
 }
 img {
   width: 2rem;
@@ -37,4 +34,12 @@ nav ul {
   display: flex;
   padding: .75em 1em .6em;
   list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
 }
