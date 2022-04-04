@@ -32,7 +32,6 @@ header img {
 
 nav ul {
   display: flex;
-
   list-style-type: none;
 }
 
@@ -51,6 +50,7 @@ a:hover {
 
 header h1 {
   width: 33.3333%;
+  z-index: auto;
 }
 
 header p {
@@ -58,5 +58,6 @@ header p {
 }
 
 h1 img {
+  display: flex;
   flex-direction: row-reverse;
 }
