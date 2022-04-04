@@ -22,9 +22,19 @@ header {
   justify-content: space-between;
 }
 
+h1 {
+  font-size: 1.125rem;
+}
+
 nav {
   color: #0074d9;
 }
 img {
   width: 2rem;
+}
+
+nav ul {
+  display: flex;
+  padding: .75em 1em .6em;
+  list-style-type: none;
 }
