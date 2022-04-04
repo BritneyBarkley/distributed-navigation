@@ -24,6 +24,7 @@ header {
 
 nav {
   color: #0074d9;
+  width: 33.3333%
 
 }
 img {
@@ -32,8 +33,12 @@ img {
 
 nav ul {
   display: flex;
-  padding: .75em 1em .6em;
+
   list-style-type: none;
+}
+
+li {
+  padding: .75em 1em .6em;
 }
 
 a {
@@ -42,4 +47,16 @@ a {
 
 a:hover {
   color: #fff;
+}
+
+h1 {
+  width: 33.3333%
+}
+
+p {
+  width: 33.3333%
+}
+
+h1 img {
+  flex-direction: row-reverse;
 }
